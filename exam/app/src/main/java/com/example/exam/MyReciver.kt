@@ -1,0 +1,19 @@
+package com.example.exam
+
+import android.content.BroadcastReceiver
+import android.content.Context
+import android.content.Intent
+import android.content.IntentFilter
+import android.widget.Toast
+
+class MyReciver: BroadcastReceiver()  {
+
+    override fun onReceive(context: Context, intent: Intent) {
+        // TODO: This method is called when the BroadcastReceiver is receiving
+        // an Intent broadcast.
+        /*Toast.makeText(context, "Broadcast : Flight mode changed.",
+            Toast.LENGTH_LONG).show()*/
+
+        throw UnsupportedOperationException("Not yet implemented")
+    }
+}
